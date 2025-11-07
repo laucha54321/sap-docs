@@ -1,0 +1,8 @@
+{
+  "label": "Procesos de venta",
+  "position": 1, 
+  "link": {
+    "type": "generated-index",
+    "description": "Los procesos de venta que utilizamos en Argentina."
+  }
+}
