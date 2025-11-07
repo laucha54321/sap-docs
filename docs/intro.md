@@ -34,7 +34,7 @@ También encontrarás documentación por procesos integrales:
 En Advanta International, operamos con una estructura estándar de tres ambientes SAP:
 
 #### 🟢 **AIP - Producción**
-- **Servidor**: `vhuplaipcs.sap.uplonline.com`
+- **Servidor**: ``
 - **Propósito**: Ambiente operativo real donde se ejecutan todos los procesos de negocio
 - **Uso**: Exclusivo para transacciones productivas del día a día
 - **Características**: 
@@ -42,7 +42,7 @@ En Advanta International, operamos con una estructura estándar de tres ambiente
   - Acceso restringido según roles específicos
 
 #### 🟡 **AIQ - Calidad**
-- **Servidor**: `vhuplaiqcs.sap.uplonline.com`
+- **Servidor**: ``
 - **Propósito**: Ambiente de testing y validación antes de pasar a producción
 - **Uso**: 
   - Pruebas de nuevos desarrollos
@@ -53,7 +53,7 @@ En Advanta International, operamos con una estructura estándar de tres ambiente
   - Entorno seguro para experimentación
 
 #### 🔵 **AID - Desarrollo**
-- **Servidor**: `vhuplaidcs.sap.uplonline.com`
+- **Servidor**: ``
 - **Propósito**: Ambiente para desarrollo y customizaciones
 - **Uso**:
   - Programación de nuevos reports
