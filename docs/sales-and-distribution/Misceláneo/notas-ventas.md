@@ -19,7 +19,7 @@ sidebar_position: 2
 | **ZXD2** | | Dom nota de cargo ISA |
 | **ZXEX** | [Exportación](/sales-and-distribution/procesos/exporatacion) | Pedido de Ventas Exp ISA |
 | **ZXRE** | [Exportación](/sales-and-distribution/procesos/exporatacion) | Devol. de Venta Exp ISA |
-| **ZXFD** | [Muestra](/sales-and-distribution/proceso/smuestra) | Muestras Libre Dom ISA |
+| **ZXFD** | [Muestra](/sales-and-distribution/proceso/muestra) | Muestras Libre Dom ISA |
 | **ZXKB** | [Consignación](/sales-and-distribution/procesos/consignacion) |  Consignment Fill-up |
 | **ZXKE** | [Consignación](/sales-and-distribution/procesos/consignacion) |  Consignment Issue ISA |
 | **ZXKP** | [Consignación](/sales-and-distribution/procesos/consignacion) |  Consgnmt Pick Up ISA |

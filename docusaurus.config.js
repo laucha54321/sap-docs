@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://tu-documentacion-sap.com',
+  url: 'https://laucha54321.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/sap-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Advanta', // Usually your GitHub org/user name.
+  organizationName: 'laucha54321', // Usually your GitHub org/user name.
   projectName: 'documentacion-sap', // Usually your repo name.
 
   onBrokenLinks: 'throw',

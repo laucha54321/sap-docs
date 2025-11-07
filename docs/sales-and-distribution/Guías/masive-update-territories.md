@@ -23,7 +23,7 @@ Proceso para actualizar masivamente la información de territorios de las órden
 - Procesar el archivo con los datos de territorios a actualizar.
 
 ### Paso 2: Verificación de Resultados
-- Revisar los logs de ejecución en **[SM35](/transactions/sm35)**.
+- Revisar los logs de ejecución en `SM35`.
 - Confirmar que las actualizaciones se aplicaron correctamente.
 - Validar que los territorios se hayan actualizado según lo esperado.
 
