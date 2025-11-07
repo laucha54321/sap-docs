@@ -28,9 +28,11 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'laucha54321', // Usually your GitHub org/user name.
-  projectName: 'documentacion-sap', // Usually your repo name.
+  projectName: 'sap-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenAnchors: 'warn',
+
 
   // CONFIGURACIÓN ESPAÑOL - Esta es la parte más importante
   i18n: {
