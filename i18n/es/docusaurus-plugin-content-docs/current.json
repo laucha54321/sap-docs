@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Finance": {
+    "message": "Finance",
+    "description": "The label for category 'Finance' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Finance.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category 'Finance' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales and distribution": {
+    "message": "Sales and distribution",
+    "description": "The label for category 'Sales and distribution' in sidebar 'tutorialSidebar'"
+  }
+}

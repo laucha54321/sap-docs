@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Documentación SAP",
+    "description": "The title in the navbar"
+  },
+  "item.label.Documentación": {
+    "message": "Documentación",
+    "description": "Navbar item with label Documentación"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "logo.alt": {
+    "message": "Logo SAP",
+    "description": "The alt text of navbar logo"
+  }
+}

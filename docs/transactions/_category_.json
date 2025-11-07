@@ -1,0 +1,8 @@
+{
+  "label": "Transacciones",
+  "position": 4, 
+  "link": {
+    "type": "generated-index",
+    "description": "Lo esencial de SD: desde la orden de venta hasta la facturación"
+  }
+}
