@@ -71,6 +71,25 @@ const config = {
   markdown: {
     mermaid: true,
   },
+  plugins:[
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        // 🔥 Important settings:
+        hashed: true,
+        indexDocs: true,
+        indexBlog: true, 
+        indexPages: false, // Set to true if you want to index regular pages
+        docsRouteBasePath: '/', // Match your docs route
+        language: ["es"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: false,
+        searchResultLimits: 10,
+        searchResultContextMaxLength: 50,
+      },
+    ]
+  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
