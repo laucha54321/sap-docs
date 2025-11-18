@@ -1,10 +1,10 @@
 ---
-title: Actualización masiva de territorios
-sidebar_position: 10
+title: Retrigger masivo de ordenes 
+sidebar_position: 1
 ---
 
 ## Descripción
-Proceso para actualizar masivamente la información de territorios de las órdenes.
+Proceso para hacer retrigger de ordenes de SAP hacia SFDC.
 
 ## Proceso Implementado
 
@@ -17,16 +17,16 @@ Proceso para actualizar masivamente la información de territorios de las órden
 ### Paso 1: Actualización Masiva de Territorios
 - Ejecutar la transacción **[LSMW](/transactions/lsmw)** para realizar la actualización masiva
 - Completar en la pantalla de `Project selection`: 
-    - Project: `ADV_ARG`
-    - Subproject: `ADV_ARG`
-    - Object: `ADV_ARG_CGII`
+    - Project: `ARG ORD TRIGGER`
+    - Subproject: `ARG ORD TRIGGER`
+    - Object: `ARG ORD TRIGGER`
 - Procesar el archivo como un `.txt` con los datos de territorios a actualizar, utilizar el siguiente formato:
     ```txt
-    6051495652	E43
-    6051495654	F29
-    6051495655	F26
+    6051495652
+    6051495654
+    6051495655
     ```
-- A cada orden se le va a actualizar el territorio de ventas correspondiente.
+- Cada orden en el archivo `.txt` va a volver a sincronizarse hacia SFDC.
 
 ### Paso 2: Verificación de Resultados
 - Revisar los logs de ejecución en `SM35`.

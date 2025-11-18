@@ -21,12 +21,6 @@ La documentación está organizada por módulos funcionales:
 - **Material Managment** - Gestión de Materiales
 - **[Sales and Distribution](/category/sales-and-distribution)** - Ventas y Distribución
 
-### Por Procesos de Negocio
-También encontrarás documentación por procesos integrales:
-- Orden a Cobro (Order to Cash)
-- Adquirir a Pagar (Procure to Pay)
-- Registrar a Reportar (Record to Report)
-
 ## Primeros Pasos
 
 ### Arquitectura de Sistemas SAP
