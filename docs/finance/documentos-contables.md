@@ -50,6 +50,8 @@ Esta tabla referencia los principales tipos de documento utilizados en el sistem
 | **Y0** | Contabilización cuentas mayor | |
 | **Y3** | Contabilización cuentas mayor | |
 | **ZP** | Registro de Pago | |
+| **CX** | Cancel.de Factura | Factura (registrada externamente) | 
+| **RG** | N/Crédito Cliente SD | Nota de Crédito |
 
 ## Uso en Transacciones
 

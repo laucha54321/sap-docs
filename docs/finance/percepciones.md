@@ -23,13 +23,13 @@ Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
 Los tipos de documentos FI relevantes para percepciones son los siguientes:
 | Tipo de documento | Significado            | Tipo de documento                                                               |
 | ----------------- | ---------------------- | ------------------------------------------------------------------------------- |
-| LQ                | Liquidaciones de canje | Factura (pueden ser notas de crédito pero vamos a tener que filtrarlos después) |
-| R1                | Facturas               | Facturas                                                                        |
-| R3                | Notas de crédito       | Notas de crédito                                                                |
-| R4                | Notas de crédito       | Notas de crédito                                                                |
-| R5                | Facturas               | Facturas                                                                        |
-| RG                | Nota de Crédito        | Nota de Crédito                                                                 |
-| RR                | Nota de Crédito        | Nota de Crédito                                                                 |
-| RS                | Nota de Crédito        | Nota de Crédito                                                                 |
-| RV                | Facturas               | Facturas                                                                        |
-| CX                | Factura registrada de manera externa a SAP. Casos excepcionales. | Factura                               |
+| R1 | Factura Clientes SD        | Factura                                                                         |
+| RV | Factura Clientes SD | Factura                                                                                |
+| CX | Factura registrada de manera externa a SAP. Casos excepcionales. | Factura                                   |
+| R3 | Nota de Crédito Cliente SD | Nota  de crédito                                                                |
+| R4 | Nota de Crédito Devolución Cliente SD | Nota de crédito                                                     |
+| RS | Nota de Crédito Devolución Cliente SD | Nota de Crédito                                                      |
+| RG | N/Crédito Cliente SD | Nota de Crédito                                                                       |
+| R5 | Nota de Débito Clientes SD | Nota de Débito                                                                         |
+| RR | Nota de Débito Clientes SD | Nota de Débito                                                                 |
+| LQ | Liquidación Cuenta y Orden  | Factura (puede ser una nota de crédito también)                                |
