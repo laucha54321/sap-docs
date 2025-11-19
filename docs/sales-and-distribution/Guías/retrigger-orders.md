@@ -14,8 +14,8 @@ Proceso para hacer retrigger de ordenes de SAP hacia SFDC.
 - Este paso desbloquea temporalmente los clientes para permitir modificaciones a sus ordenes.
 :::
 
-### Paso 1: Actualización Masiva de Territorios
-- Ejecutar la transacción **[LSMW](/transactions/lsmw)** para realizar la actualización masiva
+### Paso 1: Retrigger masivo de ordenes 
+- Ejecutar la transacción **[LSMW](/transactions/lsmw)** para realizar el retrigger a SFDC.
 - Completar en la pantalla de `Project selection`: 
     - Project: `ARG ORD TRIGGER`
     - Subproject: `ARG ORD TRIGGER`
