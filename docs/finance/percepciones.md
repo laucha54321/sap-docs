@@ -2,6 +2,11 @@
 title: Percepción
 sidebar_position: 1
 ---
+## Transacciones relevantes
+| TX         | Descripción | 
+|------------|------------------|
+| [ZFI71](/transactions/zfi71) | Reporte TXT retenciones ARBA | 
+| [ZFI_AJUSTE_PAS](/transactions/zfi_ajuste_pas) | Reporte TXT Percepciones ARBA |
 
 ## Cuentas contables - G/L accounts
 Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
@@ -11,7 +16,7 @@ Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
 | CABA        | 161598           | 
 | ARBA        | 161512           | 
 | API         | 161599           | 
-| Entre Rios  | 161531           | 
+| Entre Ríos  | 161531           | 
 | Salta       | 161921           | 
 
 ## Tipos de documentos FI
