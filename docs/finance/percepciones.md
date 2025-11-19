@@ -6,7 +6,7 @@ sidebar_position: 1
 | TX         | Descripción | 
 |------------|------------------|
 | [ZFI71](/transactions/zfi71) | Reporte TXT retenciones ARBA | 
-| [ZFI_AJUSTE_PAS](/transactions/zfi_ajuste_pas) | Reporte TXT Percepciones ARBA |
+| [ZFI_AJUSTE_PAS](/transactions/zfi_percp_arba) | Reporte TXT Percepciones ARBA |
 
 ## Cuentas contables - G/L accounts
 Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
