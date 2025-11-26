@@ -1,5 +1,6 @@
 ---
 title: ZMASS_UKM
+description: Actualización masiva de información crediticia.
 sidebar_position: 2
 ---
 ## Función 

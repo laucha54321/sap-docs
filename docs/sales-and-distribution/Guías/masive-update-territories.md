@@ -9,13 +9,13 @@ Proceso para actualizar masivamente la información de territorios de las órden
 ## Proceso Implementado
 
 :::tip
-- Utilizar la transacción **[ZMASS_UKM](/transactions/zmass_ukm)** para modificar temporalmente las clases de riesgo de clientes "D-Advance Payment".
+- Utilizar la transacción **[ZMASS_UKM](/tx&programas/transactions/zmass_ukm)** para modificar temporalmente las clases de riesgo de clientes "D-Advance Payment".
 - Los clientes con esta categoría están bloqueados para modificación de órdenes (incluyendo los territorios de sus ordenes).
 - Este paso desbloquea temporalmente los clientes para permitir modificaciones a sus ordenes.
 :::
 
 ### Paso 1: Actualización Masiva de Territorios
-- Ejecutar la transacción **[LSMW](/transactions/lsmw)** para realizar la actualización masiva
+- Ejecutar la transacción **[LSMW](/tx&programas/transactions/lsmw)** para realizar la actualización masiva
 - Completar en la pantalla de `Project selection`: 
     - Project: `ADV_ARG`
     - Subproject: `ADV_ARG`
