@@ -1,3 +1,4 @@
+Hacer una actualización masiva a la información crediticia utilizando un Excel. 
 ### 1. Acceso a la transacción
 - Ingresar a la transacción `ZMASS_UKM` en SAP.
 
