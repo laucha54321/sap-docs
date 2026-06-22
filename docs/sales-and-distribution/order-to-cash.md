@@ -6,14 +6,27 @@ sidebar_position: 5
 El proceso mas común de ventas simplificado sigue el siguiente flujo.
 
 ```mermaid
-    flowchart LR
-        A[Order Creation<br>TX VA03] --> B[Credit Approval<br>TX VKM4]
-        B --> C[Delivery Creation and Picking<br>TX VLO3N]
-        C --> D[Billing Doc Creation<br>TX VF03]
-        D --> E[Post to ARCA<br>TX J1AMONITOR]
-        E --> F[Accounting Doc Creation<br>TX FB03]
-```
+    flowchart TD
+        subgraph Créditos ["👮🏻‍♂️🚨 Créditos"]
+            B1[Aprobación de delivery<br>TX VKM4]
+        end
+        subgraph Logística ["🚚 Logística"]
+            B[Creación de Delivery<br>TX VLO1N]
+            C[Despachar delivery<br>TX VLO2N]
+        end
+        subgraph Ventas ["💰 Ventas"]
+            A[Creación de Orden<br>TX VA01]
+            D[Creación de Factura SD<br>TX VF01]
+            E[Envió a ARCA<br>TX J1AMONITOR<br>&<br>Creación de doc. FI automática<br>TX FB03]
+        end
 
+
+        A --> B
+        B --> B1
+        B1 --> C
+        C --> D
+        D --> E
+```
 
 Sin embargo hay algunas excepciones son: 
 - [Anticipos](/sales-and-distribution/Procesos/anticipo)

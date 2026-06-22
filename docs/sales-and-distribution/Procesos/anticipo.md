@@ -11,25 +11,37 @@ En estos casos, el documento que se facturan en SAP son directamente la **nota d
 
 ## Flujo del Proceso
 
-```mermaid
-graph TD
-    A[Nota de Venta: ZZAQ] --> B[Factura: ZZAQ]
-    
-    subgraph Sistema SAP
-        A
-        B
-        D[Nota de venta: ZZAR]
-        E[Despacho: ZZAR]
-    end
-    
-    C[Pago Anticipado<br/>Confirmación Externa]
 
-    
-    B --> C
-    C --> D
-    D --> E
-    style C stroke-dasharray: 5 5
+```mermaid
+    flowchart TD
+        subgraph zzaq ["Comienzo circuito ZZAQ"]
+            subgraph Créditos ["👮🏻‍♂️🚨 Créditos"]
+                B1[Aprobación de Nota de Venta]
+            end
+            subgraph Ventas ["💰 Ventas"]
+                A[Creación de Nota de Venta<br>ZZAQ]
+                D[Creación de Factura SD<br>ZZAQ]
+                E[Envió a ARCA]
+            end
+        end
+        subgraph zzar["Comienzo circuito ZZAR"]
+            G[Creación de Nota de Venta<br>ZZAR]
+            H[Creación de OBD <br> Despacho de mercadería<br>ZXLF]
+            I[Generación de documento contable<br>simbólico, precio en cero<br>ZZBI]
+        end
+
+        A --> B1
+        B1 --> D
+        D --> E
+        E --> F[Pago Anticipado<br/>Confirmación Externa]
+        F --> G
+        G --> H
+        H --> I
+        style F stroke-dasharray: 5 5
+        
+        
 ```
+
 
 ### Descripción
 

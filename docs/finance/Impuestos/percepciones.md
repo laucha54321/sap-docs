@@ -4,9 +4,20 @@ description: Al momento de la venta.
 sidebar_position: 1
 ---
 ## Transacciones relevantes
+
+### Reportes de Percepciones
 | TX         | Descripción | 
 |------------|------------------|
-| [ZFI_AJUSTE_PAS](/tx&programas/transactions/zfi_percp_arba) | Reporte TXT Percepciones ARBA |
+| [zfi_percp_arba](/tx&programas/transactions/zfi_percp_arba) | Reporte TXT Percepciones ARBA |
+
+### Programas de Padrones
+| TX         | Descripción | 
+|------------|------------------|
+| ZIIBB_SANTA_FE | Programa de padrones de Santa Fe. |
+| ZIIBB_CABA | Programa de padrones de CABA. |
+| ZIIBB_ER | Programa de padrones de Entre Ríos. |
+| ZPADRONES | Programa de padrones de ARBA. |
+
 
 ## Cuentas contables - G/L accounts
 Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
@@ -16,8 +27,9 @@ Las cuentas contables (G/L accounts) para Percepciones son las siguientes.
 | CABA        | 161598           | 
 | ARBA        | 161512           | 
 | API         | 161599           | 
-| Entre Ríos  | 161531           | 
-| Salta       | 161921           | 
+| Entre Ríos  | 161521           | 
+| Salta       | 161931           |
+| San Luis | 160360 |
 
 ## Tipos de documentos FI
 Los tipos de documentos FI relevantes para percepciones son los siguientes:
