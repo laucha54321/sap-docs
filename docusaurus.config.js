@@ -106,7 +106,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Documentación SAP',
+        title: 'Handoff para Agus',
         logo: {
           alt: 'Logo SAP',
           src: 'img/logo.svg',
@@ -120,7 +120,7 @@ const config = {
           },
           // Eliminado el blog ya que lo desactivamos
           {
-            href: 'https://github.com/tu-usuario/tu-repo', // Actualiza con tu repo
+            href: 'https://github.com/laucha54321/sap-docs', // Actualiza con tu repo
             label: 'GitHub',
             position: 'right',
           },
