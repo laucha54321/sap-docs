@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentación SAP',
-  tagline: 'Documentación técnica para sistemas SAP',
+  title: 'Hand-off para Agus',
+  tagline: 'Jejejej aca te dejo la info que estuve recolectando, acomode un poco para que se entienda mejor pero igualmente si necesitas algo podes usar la búsqueda (arriba a la derecha).',
   favicon: 'img/favicon.ico',
   themes: ['@docusaurus/theme-mermaid'],
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://sap.laureanoliva.com',
+  url: 'https://handoff.laureanoliva.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
