@@ -44,5 +44,5 @@ Dependiendo del porcentaje de cobertura se le va a asignar la clase correspondie
 ---
 
 :::note
-En el caso de necesitar hacer un update masivo a la información crediticia se puede utilizar la transacción [ZMASS_UKM](/docs/transactions/zmass_ukm.md).
+En el caso de necesitar hacer un update masivo a la información crediticia se puede utilizar la transacción [ZMASS_UKM](/SAP/tx&programas/transactions/zmass_ukm.md).
 :::

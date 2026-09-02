@@ -6,7 +6,7 @@ sidebar_position: 1
 ## Transacciones relevantes
 | TX         | Descripción | 
 |------------|------------------|
-| [ZFI71](/tx&programas/transactions/zfi71) | Reporte TXT retenciones ARBA | 
+| [ZFI71](/SAP/tx&programas/transactions/zfi71) | Reporte TXT retenciones ARBA | 
 
 ## Cuentas contables - G/L accounts
 Las cuentas contables (G/L accounts) para Retenciones son las siguientes.

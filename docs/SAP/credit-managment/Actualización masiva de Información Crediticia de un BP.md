@@ -42,5 +42,5 @@ El template utiliza un formato de Excel antiguo (.xls) por lo que puede mostrar 
 ---
 
 :::tip
-**Recomendación:** Después de ejecutar la actualización masiva, verificar que los cambios se hayan aplicado correctamente revisando algunos clientes en la transacción `BP` y confirmando que la [clase de riesgo](/credit-managment/credit-limit) se haya actualizado según lo esperado.
+**Recomendación:** Después de ejecutar la actualización masiva, verificar que los cambios se hayan aplicado correctamente revisando algunos clientes en la transacción `BP` y confirmando que la [clase de riesgo](/SAP/credit-managment/credit-limit) se haya actualizado según lo esperado.
 :::

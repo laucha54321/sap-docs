@@ -8,7 +8,7 @@ sidebar_position: 1
 ### Reportes de Percepciones
 | TX         | Descripción | 
 |------------|------------------|
-| [zfi_percp_arba](/tx&programas/transactions/zfi_percp_arba) | Reporte TXT Percepciones ARBA |
+| [zfi_percp_arba](/SAP/tx&programas/transactions/zfi_percp_arba) | Reporte TXT Percepciones ARBA |
 
 ### Programas de Padrones
 | TX         | Descripción | 
