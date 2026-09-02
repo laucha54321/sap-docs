@@ -9,7 +9,7 @@ Proceso para actualizar masivamente la información de territorios de las órden
 ## Proceso Implementado
 
 :::tip
-- Utilizar la transacción **[ZMASS_UKM](/SAP/tx&programas/transactions/transactions/zmass_ukm)** para modificar temporalmente las clases de riesgo de clientes "D-Advance Payment".
+- Utilizar la transacción **[ZMASS_UKM](/SAP/tx&programas/transactions/zmass_ukm)** para modificar temporalmente las clases de riesgo de clientes "D-Advance Payment".
 - Los clientes con esta categoría están bloqueados para modificación de órdenes (incluyendo los territorios de sus ordenes).
 - Este paso desbloquea temporalmente los clientes para permitir modificaciones a sus ordenes.
 :::
