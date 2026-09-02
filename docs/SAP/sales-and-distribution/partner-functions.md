@@ -1,12 +1,13 @@
 ---
-title: "Direcciones de envió (ship-to)"
+title: "Partner function"
 sidebar_position: 4
 ---
+# Ship-to party
+Las direcciones de envió de cada Cliente se asocian a través de Partner Functions a los BP (el del cliente) en datos maestros. 
 
+El ship-to es el partner function con código `sh`
 
-Las direcciones de envió de cada BP se asocian a través de Partner Functions. 
+# Commision Agent
+El Commision agent no esta asociado a través del BP, como si esta el ship-to. En el caso del commision agent este es un valor que sale del territorio en SFDC. Por lo tanto esto no lo vas a ver en los partners en el BP. Este solo va a aparecer en los Partner en la Orden. 
 
-Tenemos BPs que son clientes, estos tienen asociados otros números de BP que son sus direcciones de envió. 
-
-Esta en proceso un cambio para limitar la creación de ordenes solo a direcciones de envió 
-
+El Commision es el partner function con código `z1`
