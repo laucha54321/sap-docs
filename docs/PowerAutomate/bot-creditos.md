@@ -5,10 +5,15 @@ sidebar_position: 2
 ## Intro
 El bot de créditos usa varios flujos. Los flujos se comunican entre si a través de APIs. 
 :::info
-El flujo de Bot de créditos utiliza dos APIs con credenciales externas. Estas APIs son Nosis, y SFDC. Es posible que en algún momento estas credenciales tengan modificaciones de permisos y haya que actualizarlas. Por esta razón están contenidas en los siguientes flujos `SFDC Validator` y `Nosis Validatior`. 
+ ⚠️ El flujo de Bot de créditos utiliza dos APIs con credenciales externas. Estas APIs son Nosis, y SFDC. Es posible que en algún momento estas credenciales tengan modificaciones de permisos y haya que actualizarlas. Por esta razón están contenidas en los siguientes flujos `SFDC Validator` y `Nosis Validatior`. 
 :::
-## Flujo de flujos (vale la redundancia)
-Aca dejo una descripción de como los flujos se van llamando entre si. Mantuve los nombres de los flujos originales en el cuadro (omitiendo version y comentario ej: `Llegada de mail`). Todos los flujos son los que están en rectángulos, el resto son eventos o decisiones (estos suceden dentro de los flujos) . 
+## Flujo de flujos (sí, vale la redundancia)
+El flujo principal es **`Llegada de mail`**. A partir de ahí, se disparan una serie de validaciones y llamadas a otros flujos,
+
+Cada rectángulo en el diagrama representa un **flujo**, mientras que los rombos y círculos representan **decisiones o eventos** que ocurren dentro de esos flujos.
+
+> 📌 Los nombres de los flujos se mantuvieron tal cual están en el código (sin versión ni comentarios), para que sea fácil rastrearlos.
+
 ```mermaid
 flowchart TD
     A[Llegada de mail] --> B[Validar mail]
