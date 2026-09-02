@@ -11,5 +11,5 @@ Esta transacción es utilizada para generar el archivo `.txt` utilizado para rep
 
 ::::caution
 ### Liquidaciones de granos
-En el caso de las liquidaciones de granos [LQ](/finance/LQ) estos documentos pueden ser tanto facturas como notas de crédito. Por esta razón, si bien el programa toma estos documentos, estos siempre van a ser considerados como facturas. En los casos que sea  relevante esto deberá modificarse manualmente. 
+En el caso de las liquidaciones de granos estos documentos pueden ser tanto facturas como notas de crédito. Por esta razón, si bien el programa toma estos documentos, estos siempre van a ser considerados como facturas. En los casos que sea  relevante esto deberá modificarse manualmente. 
 ::::
