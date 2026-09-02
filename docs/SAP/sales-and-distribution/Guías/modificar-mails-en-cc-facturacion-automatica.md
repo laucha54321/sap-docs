@@ -3,19 +3,25 @@ title: Modificar mails en CC de Facturación Automática o de Remitos automátic
 sidebar_position: 2
 ---
 
-## Descripción
-<!-- Modificar, agregar o quitar emails del programa de envió automático de mail de facturación.  -->
-## Facturación
-Este email sale del mensaje automático ZZFA para los documentos SD y de un job automático diario para los documentos FI.
+## 🧭 Descripción general
+Este procedimiento explica cómo **agregar, modificar o quitar** direcciones de correo electrónico que reciben copias (CC) en los envíos automáticos de facturación y remitos.
 
-Para facturacion la variable que hay que modificar es la ZSD_FC_MAIL_ADIC.
+## Facturación
+El correo de facturación se envía a través del mensaje automático **ZZFA** para documentos SD, y mediante un **job automático diario** para documentos FI.
+
+:::tip[Variable a modificar]
+Para facturación, la variable que debes ajustar es:  
+**`ZSD_FC_MAIL_ADIC`**
+:::
 
 ## Remitos
-En el caso de remito el email es enviado al momento en el que se realiza la primera impresión del formulario de remito (TX ZARSD03).
+En el caso de los remitos, el envío del email se dispara en el momento de la **primera impresión del formulario** (transacción `ZARSD03`).
 
-En el caso de remito la variable que hay que modificar es ZSD_REM_MAIL_ADIC.
+:::tip[Variable a modificar]
+Para remitos, la variable que debes ajustar es:  
+**`ZSD_REM_MAIL_ADIC`**
 
-## Pasos
+## 🛠️ Pasos
 ### 1. Ingresar en la TX `STVARV` y buscar la variable correspondiente al proceso.\
 ### 2. Seleccionar el modo edición
 ![tvarvc1](/img/tvarvc1.png)
@@ -29,6 +35,7 @@ Esto nos va a abrir la siguiente pestaña. Le hacemos click al botón de selecci
 ![tvarvc1](/img/tvarvc4.png)
 ### 6. Modificar la variable
 Se nos va a abrir otra nueva pestaña con la lista de mails que se ponen en CC en el envió automático hoy en dia. Podemos en esta lista agregar, sacar o modificar los mails. Una vez hecha la modificación guardamos y desde ese momento en adelante la modificación va a tener impacto. 
+
 ![tvarvc1](/img/tvarvc5.png)
 
 
