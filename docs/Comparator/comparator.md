@@ -31,5 +31,5 @@ description: Comparator, aplicación para hacer comparaciones entre bases de dat
 > ⚠️ **Advertencia de Windows SmartScreen:** Como es un ejecutable nuevo, Windows puede mostrar una advertencia. Hacé clic en *"Más información"* y luego en *"Ejecutar de todas formas"*.
 
 ---
-También dejo un [link](https://github.com/laucha54321/Comparator) al repo en github x si necesitan promptear la IA. 
-
+También dejo un link al repo en GitHub por si necesitan promptear la IA:  
+🐙 [Ver código fuente](https://github.com/laucha54321/Comparator)
